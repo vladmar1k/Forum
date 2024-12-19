@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивний макет</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <header class="block_header">
+        <img src="img/new_logo.png" alt="" class="logo">
+        <nav class="navigation">
+            <button type="button" class="burger_menu"><img src="./img/menu.jpg" alt="menu" class="menu-icon" width="52px" height="40px" />
+            </button>
+            <ul class="menu">
+                <li class="item"><a href="#" class="link">"Топ-стрімери 2024: Як вони захоплюють світ і заробляють мільйони"</a></li>
+                <li class="item"><button class="thema">Змінити тему</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="block-main">
+        <section class="top-content">
+            <section class="images-grid">
+                <div><img src="img/twitch_icon.png" alt="Зображення 1" class="photo"></div>
+                <div><img src="img/chat_icon.png" alt="Зображення 2" class="photo"></div>
+                <div><img src="img/kaicenat_icon.png" alt="Зображення 3" class="photo"></div>
+                <div><img src="img/evelon_icon.png" alt="Зображення 4" class="photo"></div>
+            </section>
+            <section class="block-text-strim">
+                <div class="bottom-text">
+                   <p class="text">Стрімер — це людина, яка веде прямі трансляції (стріми) через інтернет на різних платформах, таких як Twitch, YouTube, Facebook Gaming чи інші. Під час стріму стрімер взаємодіє з аудиторією в реальному часі через чат, демонструє певний контент і отримує підтримку у вигляді донатів, підписок чи спонсорства.</p>
+                </div>
+                <div class="top-text">
+                   <p class="text">Одним із найвідоміших стрімерів на 2024 рік є Kai Cenat, який здобув популярність завдяки своєму розважальному контенту та регулярній взаємодії з аудиторією. Він був номінований як "Стрімер року" на престижних нагородах The Streamer Awards. Його контент охоплює ігри, чати з глядачами, а також унікальні колаборації зі знаменитостями, такими як Кевін Гарт та інші. Kai стрімить переважно на платформі Twitch і має мільйони підписників.</p>
+                </div>
+            </section>
+        </section>
+        <section class="main-text-block">
+            <div class="block-kategoria">
+                <div class="text-kategor">
+                    <h3 class="title-kategor">6 НАЙПОПУЛЯРНІШИХ КАТЕГОРІЙ У СТРІМЕРСТВІ</h3>
+                    <p class="text-kategor">
+                        1. Ігровий стрімінг - Трансляції ігрового процесу в популярних або нішевих<br>відеоіграх, що приваблюють геймерів і фанатів.<br>
+                        2. IRL (In Real Life) - Стріми, де стрімер ділиться своїм повсякденним життям,<br>подорожами чи особистими моментами в реальному часі.<br>
+                        3. Розмовний контент - Неформальне спілкування зі своєю аудиторією<br>через Q&A, подкасти або обговорення цікавих тем.<br>
+                        4. Кулінарія - Процес приготування різноманітних страв з акцентом на<br> живе спілкування з глядачами.<br>
+                        5. Мистецтво і творчість - Живі сесії малювання, музичних виступів або<br> рукоділля для поціновувачів креативного контенту.<br>
+                        Реакції та огляди - Реакція на відео, меми або інші медіа з інтерактивним<br>обговоренням із глядачами.</p>
+                </div>
+                <img src="img/icon_room.png" alt="Зображення 5" class="photo_2">
+            </div>  
+            <div class="block-inf">
+                <p class="text-info">
+                    У 2020 році стрімерство стало надзвичайно популярним через пандемію COVID-19, яка змусила людей шукати нові способи
+                    розваг і спілкування вдома. Платформи як Twitch і YouTube Gaming показали рекордний ріст аудиторії, а нові ігри на
+                    кшталт Among Us та Fall Guys стали хітами. IRL-стріми, віртуальні події та залучення знаменитостей привернули ще більше уваги,
+                    зробивши стрімінг важливою частиною цифрової культури.
+                </p>
+            </div>
+        </section>
+        <section class="comments">
+            <h1 class="title-comment">Додати коментар</h1>
+            <form class="comment-form">
+                <input
+                    type="text"
+                    class="comment-field"
+                    placeholder="Напишіть ваш коментар..."
+                    name="commentField"
+                    required
+                    />
+                <button type="submit" class="submit-button">Відправити</button>
+            </form>
+            <ul class="comment-list">
+                <li class="user-comment">
+                    Вау, Бути стрімер це круто!!!
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="block-footer">
+        <img src="img/news_logo.png" alt="" class="logo">
+        <div class="block-heart">
+            <p class="mini-title">Нажми на кнопку якщо сподобалось!!!</p>
+            <button class="heart" type="button"><span class="likes-number">28</span></button>
+        </div>
+        <div class="block-text-footer">
+            <p class="text-foot">Контакт: Номер: 0983989192<br>Телеграм: @mar1l_vlad<br></p>  
+            <p class="text-foot">Івано-Франківськ 2024<br>Школа Комп'ютерної Майстерності</p> 
+        </div>
+    </footer>
+
+    <button class="up-button"><img src="img/arrow.png" alt="" class="arrow"></button>
+
+    <aside class="cookies-agreement">
+        <p>Поки ви знаходитесь на нашому сайті та читаєте новини, ми використовуємо ваші кукіс. Дуже сподіваємось, що ви не проти.</p>
+        <button class="button cookies-button" type="button">Окей, продовжуйте</button>
+    </aside>
+
+    <script src="index.js"></script>
+</body>
+</html>
